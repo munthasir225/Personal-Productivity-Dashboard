@@ -1,1 +1,54 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  margin: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007acc;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+.dark section {
+  background: #2d2d2d;
+}
+
+#timerDisplay {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
 
