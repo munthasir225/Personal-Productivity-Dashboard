@@ -1,5 +1,3 @@
-# Personal-Productivity-Dashboard
-A fully functional web app that helps users track their daily productivity.
 # Productivity Dashboard
 
 A **web-based productivity dashboard** built with **Vanilla JavaScript, HTML, and CSS**.  
