@@ -13,7 +13,7 @@ This project helps you manage tasks, track time, see live weather updates, and g
 
 ## Demo
 
-Check out the **live demo**: [Productivity Dashboard Live]
+Check out the **live demo**: https://munthasir225.github.io/Personal-Productivity-Dashboard/
 
 ## Usage
 
