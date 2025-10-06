@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Productivity Dashboard</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <main>
+    <section class="todo">
+      <h2>📝 To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button id="addTask">Add</button>
+      <ul id="taskList"></ul>
+    </section>
+
+    <section class="timer">
+      <h2>⏱ Pomodoro Timer</h2>
+      <div id="timerDisplay">25:00</div>
+      <button id="startTimer">Start</button>
+      <button id="resetTimer">Reset</button>
+    </section>
+
+    <section class="weather">
+      <h2>🌤 Weather</h2>
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="getWeather">Get Weather</button>
+      <div id="weatherInfo"></div>
+    </section>
+
+    <section class="quote">
+      <h2>💬 Daily Quote</h2>
+      <p id="quoteText">Loading quote...</p>
+      <button id="newQuote">New Quote</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Munthasir Ahmed | Built with Vanilla JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
