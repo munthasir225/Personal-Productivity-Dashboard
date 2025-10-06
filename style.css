@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #f5f7fa;
+  background: #f4f7fa;
   color: #222;
   margin: 0;
   transition: background 0.3s, color 0.3s;
@@ -27,6 +27,11 @@ section {
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+section:hover {
+  transform: scale(1.02);
 }
 
 button {
@@ -36,6 +41,16 @@ button {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #005a99;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
 }
 
 .dark {
@@ -46,6 +61,18 @@ button {
 .dark section {
   background: #2d2d2d;
 }
+
+#timerDisplay {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
 
 #timerDisplay {
   font-size: 2rem;
